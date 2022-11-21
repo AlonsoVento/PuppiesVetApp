@@ -1,11 +1,11 @@
 package com.upc.puppiesvetapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class InicioActivity extends AppCompatActivity {
 
@@ -20,7 +20,7 @@ public class InicioActivity extends AppCompatActivity {
         btn_Mascota=(Button)findViewById(R.id.btn_Mascota);
         btn_Servicios=(Button)findViewById(R.id.btn_Servicios);
 
-        /*
+
         btn_Perfil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -44,6 +44,7 @@ public class InicioActivity extends AppCompatActivity {
             }
         });
 
+        /*
         btn_Map=(Button)findViewById(R.id.btn_Map);
         btn_Map.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,7 +53,7 @@ public class InicioActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
         */
+
     }
 }
