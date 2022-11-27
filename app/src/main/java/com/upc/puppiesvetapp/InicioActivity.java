@@ -44,7 +44,6 @@ public class InicioActivity extends AppCompatActivity {
             }
         });
 
-        /*
         btn_Map=(Button)findViewById(R.id.btn_Map);
         btn_Map.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,7 +52,7 @@ public class InicioActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        */
+
 
     }
 }
