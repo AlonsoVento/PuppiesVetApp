@@ -2,13 +2,19 @@ package com.upc.puppiesvetapp;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.messaging.FirebaseMessaging;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,7 +37,10 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        /* Para obtener el token de la aplicación ::: Abrir el logcat y poner el símbolo indicado en el TAG
+        /* Para obtener el token de la aplicación ::: Abrir el logcat y poner el símbolo indicado
+        en el TAG
+        -- lineas 44-50 se tienen q tipear por completo
+        */
         FirebaseMessaging.getInstance().getToken().addOnCompleteListener(new OnCompleteListener<String>() {
             @Override
             public void onComplete(@NonNull Task<String> task) {
@@ -39,15 +48,14 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("===>",token);
             }
         });
-        */
     }
 
-    /*
+
     private void inicializarFirebase() {
         FirebaseApp.initializeApp(this);
         database= FirebaseDatabase.getInstance();
         reference =database.getReference();
     }
-    */
+
 
 }
