@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "132484608527",
+    "firebase_url": "https://puppies-vet-app-default-rtdb.firebaseio.com",
+    "project_id": "puppies-vet-app",
+    "storage_bucket": "puppies-vet-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132484608527:android:e162073fb1d7850287e97a",
+        "android_client_info": {
+          "package_name": "com.upc.puppiesvetapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132484608527-827g30gbn1p6moeh0u9me6tlod60jkes.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.upc.puppiesvetapp",
+            "certificate_hash": "d8ad3f64c3916b4f55586af84b71e8b948fe6663"
+          }
+        },
+        {
+          "client_id": "132484608527-gakdr8bqcfe41usgli8l8quo0clrenpg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArzSW-DN6YsEYcZyDlJgNpz47P2ArpyTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132484608527-gakdr8bqcfe41usgli8l8quo0clrenpg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
