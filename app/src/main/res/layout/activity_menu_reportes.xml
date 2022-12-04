@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InicioActivity">
+    tools:context=".MenuReportesActivity">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fc_Header"
@@ -18,7 +18,7 @@
 
 
     <Button
-        android:id="@+id/btn_Servicios"
+        android:id="@+id/btn_ReporteResidenciaClientes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
@@ -26,7 +26,7 @@
         android:layout_marginEnd="60dp"
         android:background="@drawable/fondo_boton"
         android:fontFamily="@font/roboto_bold"
-        android:text="@string/solicitar_servicios"
+        android:text="@string/residencia_de_clientes"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,7 +34,7 @@
         app:layout_constraintTop_toBottomOf="@+id/fc_Header" />
 
     <Button
-        android:id="@+id/btn_Perfil"
+        android:id="@+id/btn_ReporteEstadoServicios"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
@@ -42,15 +42,15 @@
         android:layout_marginEnd="60dp"
         android:background="@drawable/fondo_boton"
         android:fontFamily="@font/roboto_bold"
-        android:text="@string/perfil"
+        android:text="@string/estado_de_servicios"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_Servicios" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_ReporteResidenciaClientes" />
 
     <Button
-        android:id="@+id/btn_Mascota"
+        android:id="@+id/btn_ReporteServiciosRealizados"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
@@ -58,15 +58,15 @@
         android:layout_marginEnd="60dp"
         android:background="@drawable/fondo_boton"
         android:fontFamily="@font/roboto_bold"
-        android:text="@string/mascotas"
+        android:text="@string/servicios_realizados"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_Perfil" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_ReporteEstadoServicios" />
 
     <Button
-        android:id="@+id/btn_Map"
+        android:id="@+id/btn_ReporteEstadoCompras"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
@@ -74,27 +74,11 @@
         android:layout_marginEnd="60dp"
         android:background="@drawable/fondo_boton"
         android:fontFamily="@font/roboto_bold"
-        android:text="@string/ub_canos"
+        android:text="@string/estado_de_compras"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_Mascota" />
-
-    <Button
-        android:id="@+id/btn_Reportes"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="60dp"
-        android:background="@drawable/fondo_boton"
-        android:fontFamily="@font/roboto_bold"
-        android:text="@string/reportes"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_Map" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_ReporteServiciosRealizados" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
