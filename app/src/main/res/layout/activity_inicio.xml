@@ -18,7 +18,7 @@
 
 
     <Button
-        android:id="@+id/btn_ReporteResidenciaClientes"
+        android:id="@+id/btn_Servicios"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
@@ -34,7 +34,7 @@
         app:layout_constraintTop_toBottomOf="@+id/fc_Header" />
 
     <Button
-        android:id="@+id/btn_ReporteEstadoServicios"
+        android:id="@+id/btn_Perfil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
@@ -47,10 +47,10 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_ReporteResidenciaClientes" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_Servicios" />
 
     <Button
-        android:id="@+id/btn_ReporteServiciosRealizados"
+        android:id="@+id/btn_Mascota"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
@@ -63,10 +63,10 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_ReporteEstadoServicios" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_Perfil" />
 
     <Button
-        android:id="@+id/btn_ReporteEstadoCompras"
+        android:id="@+id/btn_Map"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
@@ -74,12 +74,12 @@
         android:layout_marginEnd="60dp"
         android:background="@drawable/fondo_boton"
         android:fontFamily="@font/roboto_bold"
-        android:text="Ubícanos"
+        android:text="@string/ub_canos"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_ReporteServiciosRealizados" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_Mascota" />
 
     <Button
         android:id="@+id/btn_Reportes"
@@ -90,11 +90,11 @@
         android:layout_marginEnd="60dp"
         android:background="@drawable/fondo_boton"
         android:fontFamily="@font/roboto_bold"
-        android:text="Reportes"
+        android:text="@string/reportes"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_ReporteEstadoCompras" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_Map" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

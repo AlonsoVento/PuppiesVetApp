@@ -18,4 +18,6 @@
     <string name="estado_de_servicios">Estado de Servicios</string>
     <string name="servicios_realizados">Servicios Realizados</string>
     <string name="estado_de_compras">Estado de Compras</string>
+    <string name="ub_canos">Ubícanos</string>
+    <string name="reportes">Reportes</string>
 </resources>

@@ -1,5 +1,6 @@
 package com.upc.puppiesvetapp;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -11,14 +12,15 @@ public class InicioActivity extends AppCompatActivity {
 
     Button btn_Perfil, btn_Mascota, btn_Servicios, btn_Map, btn_Reportes;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inicio);
 
-        btn_Perfil=(Button)findViewById(R.id.btn_ReporteEstadoServicios);
-        btn_Mascota=(Button)findViewById(R.id.btn_ReporteServiciosRealizados);
-        btn_Servicios=(Button)findViewById(R.id.btn_ReporteResidenciaClientes);
+        btn_Perfil=(Button)findViewById(R.id.btn_Perfil);
+        btn_Mascota=(Button)findViewById(R.id.btn_Mascota);
+        btn_Servicios=(Button)findViewById(R.id.btn_Servicios);
 
 
         btn_Perfil.setOnClickListener(new View.OnClickListener() {
@@ -44,7 +46,7 @@ public class InicioActivity extends AppCompatActivity {
             }
         });
 
-        btn_Map=(Button)findViewById(R.id.btn_ReporteEstadoCompras);
+        btn_Map=(Button)findViewById(R.id.btn_Map);
         btn_Map.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
