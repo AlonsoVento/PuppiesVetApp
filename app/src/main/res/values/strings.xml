@@ -20,4 +20,10 @@
     <string name="estado_de_compras">Estado de Compras</string>
     <string name="ub_canos">Ubícanos</string>
     <string name="reportes">Reportes</string>
+    <string name="generar">Generar</string>
+    <string name="fecha_inicio">Fecha Inicio:</string>
+    <string name="fecha_final">Fecha Final:</string>
+    <string name="selecciona_una_fecha">Selecciona una fecha</string>
+    <string name="selecciona_una_fecha_inicio">Selecciona una fecha</string>
+    <string name="selecciona_una_fecha_final">Fecha Final</string>
 </resources>
