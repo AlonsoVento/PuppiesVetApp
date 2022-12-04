@@ -16,9 +16,9 @@ public class InicioActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inicio);
 
-        btn_Perfil=(Button)findViewById(R.id.btn_Perfil);
-        btn_Mascota=(Button)findViewById(R.id.btn_Mascota);
-        btn_Servicios=(Button)findViewById(R.id.btn_Servicios);
+        btn_Perfil=(Button)findViewById(R.id.btn_ReporteEstadoServicios);
+        btn_Mascota=(Button)findViewById(R.id.btn_ReporteServiciosRealizados);
+        btn_Servicios=(Button)findViewById(R.id.btn_ReporteResidenciaClientes);
 
 
         btn_Perfil.setOnClickListener(new View.OnClickListener() {
@@ -44,7 +44,7 @@ public class InicioActivity extends AppCompatActivity {
             }
         });
 
-        btn_Map=(Button)findViewById(R.id.btn_Map);
+        btn_Map=(Button)findViewById(R.id.btn_ReporteEstadoCompras);
         btn_Map.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -53,6 +53,14 @@ public class InicioActivity extends AppCompatActivity {
             }
         });
 
+        btn_Reportes=(Button)findViewById(R.id.btn_Reportes);
+        btn_Reportes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(InicioActivity.this, MenuReportesActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }

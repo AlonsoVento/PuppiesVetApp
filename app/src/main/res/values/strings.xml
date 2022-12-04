@@ -14,4 +14,8 @@
     <string name="no_tienes_una_cuenta_reg_strate_aqu">¿No tienes una cuenta? Regístrate aquí.</string>
     <string name="recuperar">Recuperar</string>
     <string name="title_activity_map">MapActivity</string>
+    <string name="residencia_de_clientes">Residencia de Clientes</string>
+    <string name="estado_de_servicios">Estado de Servicios</string>
+    <string name="servicios_realizados">Servicios Realizados</string>
+    <string name="estado_de_compras">Estado de Compras</string>
 </resources>
