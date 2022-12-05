@@ -1,6 +1,8 @@
 package com.upc.puppiesvetapp;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -24,8 +26,11 @@ public class MenuReportesActivity extends AppCompatActivity {
         btn_ReporteResidenciaClientes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MenuReportesActivity.this, ReporteResidenciaClientesActivity.class);
-                startActivity(intent);
+                /*Intent intent = new Intent(MenuReportesActivity.this, ReporteResidenciaClientesActivity.class);
+                startActivity(intent);*/
+                Uri uri = Uri.parse( "https://app.powerbi.com/view?r=eyJrIjoiMTE0NmU5NDYtYTFkMS00ODMxLTkzMjctOGFmZjhmODYxNDk5IiwidCI6IjBlMGNiMDYwLTA5YWQtNDlmNS1hMDA1LTY4YjliNDlhYTFmNiIsImMiOjR9" );
+                Intent intent = new Intent(Intent.ACTION_VIEW,uri);
+                v.getContext().startActivity(intent);
             }
         });
 
