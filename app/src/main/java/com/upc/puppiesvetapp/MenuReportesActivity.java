@@ -34,7 +34,6 @@ public class MenuReportesActivity extends AppCompatActivity {
             }
         });
 
-        //test//
 
     }
 }
