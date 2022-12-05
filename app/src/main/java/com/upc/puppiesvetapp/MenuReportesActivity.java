@@ -1,6 +1,5 @@
 package com.upc.puppiesvetapp;
 
-import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -11,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MenuReportesActivity extends AppCompatActivity {
 
-    Button btn_ReporteResidenciaClientes, btn_ReporteEstadoServicios, btn_ReporteServiciosRealizados,btn_ReporteEstadoCompras;
+    Button btn_ReporteResidenciaClientes, btn_ReporteSolicitudesServicios, btn_ReporteEstadoCliente,btn_ReporteVentasRealizadas, btn_ReporteEstadoCompras;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,8 +18,9 @@ public class MenuReportesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_menu_reportes);
 
         btn_ReporteResidenciaClientes=(Button)findViewById(R.id.btn_ReporteResidenciaClientes);
-        btn_ReporteEstadoServicios=(Button)findViewById(R.id.btn_ReporteEstadoServicios);
-        btn_ReporteServiciosRealizados=(Button)findViewById(R.id.btn_ReporteServiciosRealizados);
+        btn_ReporteSolicitudesServicios=(Button)findViewById(R.id.btn_ReporteSolicitudesServicios);
+        btn_ReporteEstadoCliente=(Button)findViewById(R.id.btn_ReporteEstadoCliente);
+        btn_ReporteVentasRealizadas=(Button)findViewById(R.id.btn_ReporteVentasRealizadas);
         btn_ReporteEstadoCompras=(Button)findViewById(R.id.btn_ReporteEstadoCompras);
 
         btn_ReporteResidenciaClientes.setOnClickListener(new View.OnClickListener() {
