@@ -26,4 +26,8 @@
     <string name="selecciona_una_fecha">Selecciona una fecha</string>
     <string name="selecciona_una_fecha_inicio">Selecciona una fecha</string>
     <string name="selecciona_una_fecha_final">Fecha Final</string>
+    <string name="solicitudes_de_servicios">solicitudes_de_servicios</string>
+    <string name="estado_de_clientes">estado de clientes</string>
+    <string name="solicitudes_de_servicios_">solicitudes de servicios</string>
+    <string name="ventas_realizadas">Ventas Realizadas</string>
 </resources>
