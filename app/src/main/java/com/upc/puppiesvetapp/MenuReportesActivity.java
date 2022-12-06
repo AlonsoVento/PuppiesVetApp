@@ -18,9 +18,10 @@ public class MenuReportesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_menu_reportes);
 
         btn_ReporteResidenciaClientes=(Button)findViewById(R.id.btn_ReporteResidenciaClientes);
-        btn_ReporteSolicitudesServicios=(Button)findViewById(R.id.btn_ReporteSolicitudesServicios);
         btn_ReporteEstadoCliente=(Button)findViewById(R.id.btn_ReporteEstadoCliente);
         btn_ReporteVentasRealizadas=(Button)findViewById(R.id.btn_ReporteVentasRealizadas);
+
+        btn_ReporteSolicitudesServicios=(Button)findViewById(R.id.btn_ReporteSolicitudesServicios);
         btn_ReporteEstadoCompras=(Button)findViewById(R.id.btn_ReporteEstadoCompras);
 
         btn_ReporteEstadoCliente.setOnClickListener(new View.OnClickListener() {
